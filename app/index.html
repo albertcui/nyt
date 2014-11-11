@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="nytApp">
+<head>
+  <meta charset="utf-8">
+  <title>Food</title>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" ng-controller="ArticleController">
+        <button class=".btn-lg btn btn-info" ng-click="findStuff()">FIND</button>
+        <ul>
+            <li ng-repeat="doc in data">
+                <div>
+                    <span>Headlines: {{doc.headline}}</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

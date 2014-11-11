@@ -1,0 +1,22 @@
+{
+  "name": "nyt",
+  "version": "0.0.0",
+  "authors": [
+    "albertcui <albertqcui+github@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "bootstrap": "3.3.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
